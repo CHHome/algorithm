@@ -7,6 +7,7 @@ function node(value){
     this.left = null;
     this.right = null;
 }
+//二叉树对象，包括根和操作方法集合
 function BST(){
     this.root = null;
     this.insertNode = insertNode;
